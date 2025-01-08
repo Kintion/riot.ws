@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "riot.ws.api", "riot.ws.api\riot.ws.api.csproj", "{B3322F48-D528-4E18-87B2-7D22A3D461D7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{17C635B3-06E0-43CB-8B12-18A28B5A2BCA} = {17C635B3-06E0-43CB-8B12-18A28B5A2BCA}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "riot.ws.domain", "riot.ws.domain\riot.ws.domain.csproj", "{64C11113-2616-4805-98B6-3F7ADE960BCD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "riot.ws.infrastructure", "riot.ws.infrastructure\riot.ws.infrastructure.csproj", "{3A9EA229-6C19-4B91-AFF4-CCDBC8DBD1E5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "riot.ws.service", "riot.ws.service\riot.ws.service.csproj", "{17C635B3-06E0-43CB-8B12-18A28B5A2BCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "riot.ws.shared", "riot.ws.shared\riot.ws.shared.csproj", "{44E24B04-54B5-46C3-9F7A-900FDDF20025}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3322F48-D528-4E18-87B2-7D22A3D461D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3322F48-D528-4E18-87B2-7D22A3D461D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3322F48-D528-4E18-87B2-7D22A3D461D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3322F48-D528-4E18-87B2-7D22A3D461D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C11113-2616-4805-98B6-3F7ADE960BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C11113-2616-4805-98B6-3F7ADE960BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C11113-2616-4805-98B6-3F7ADE960BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C11113-2616-4805-98B6-3F7ADE960BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9EA229-6C19-4B91-AFF4-CCDBC8DBD1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9EA229-6C19-4B91-AFF4-CCDBC8DBD1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9EA229-6C19-4B91-AFF4-CCDBC8DBD1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9EA229-6C19-4B91-AFF4-CCDBC8DBD1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C635B3-06E0-43CB-8B12-18A28B5A2BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C635B3-06E0-43CB-8B12-18A28B5A2BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C635B3-06E0-43CB-8B12-18A28B5A2BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C635B3-06E0-43CB-8B12-18A28B5A2BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44E24B04-54B5-46C3-9F7A-900FDDF20025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E24B04-54B5-46C3-9F7A-900FDDF20025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E24B04-54B5-46C3-9F7A-900FDDF20025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E24B04-54B5-46C3-9F7A-900FDDF20025}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C6EC5A7-5B25-4572-8AEF-3A3BC1CDF3F4}
+	EndGlobalSection
+EndGlobal
