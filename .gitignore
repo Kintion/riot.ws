@@ -33,5 +33,4 @@ artifacts/
 .DS_Store
 Thumbs.db
 
-.json
 *.json
